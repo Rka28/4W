@@ -1,0 +1,129 @@
+.container-fluid{
+	background-color: rgb(255, 255, 255);
+	width: 500px;
+	height: 500px;
+	border-radius: 60px;
+	border:  1px solid grey;
+	display: flex;
+
+	
+	
+}
+.container-menu{
+	display: flex;
+	text-align: center;
+	margin-top: 15vw;
+}
+/* .container-fluid img{
+	width: 280px;
+	margin-left: 6vw;
+	height: 280px;
+
+} */
+/* .rent{
+	display: table-caption;
+	
+
+	
+} */
+.contanair-border{
+	margin-left: 5vw;
+	border:  1px solid grey;
+	padding: 5px;
+	background-color: gray;
+	border-radius: 63px;
+}
+.container-fluid h5{
+	font-family: "Inria Serif", serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: x-large;
+	margin-right: 35vw;
+	margin-bottom: 0px;
+
+}
+.container-fluid h6{
+	font-family: "Inria Serif", serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: x-large;
+	margin-right: 25vw;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+
+}
+.btn-rent{
+	margin-top: 2vw;
+	border-radius: 60px;
+	padding: 20px;
+	background-color: black;
+	color: white;
+	font-size: small;
+	font-weight: 700;
+	width: 300px;
+}
+.btn-rent:hover{
+	background-color: white;
+	color: black;
+}
+.btn-menu{
+	width: 350px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 3vw;
+	gap: 50px;
+}
+/* 
+.container-menu ul.slider.animated{
+	width: 330px;
+	padding-right: 25px;
+	width: 350px;
+}
+.container-menu .carousel-root{
+	width: 837px;
+	display: flex;
+	overflow: hidden;
+}
+.container-menu .carousel .thumbs{
+	display: none;
+}
+
+.container-menu .carousel.carousel-slider .control-arrow{
+	display: none;
+} */
+
+.Menu-veh{
+	text-align: center;
+	font-size: xx-large;
+	margin-bottom: 2vw;
+	margin-top: 10vw;
+}
+.flex-menu{
+	display: flex;
+	margin-right: 305px;
+	justify-content: center;
+}
+@keyframes animate-in-and-out {
+	entry 0%  {
+		opacity: 0; transform: translateY(100%);
+	}
+	entry 100%  {
+		opacity: 1; transform: translateY(0);
+	}
+
+	exit 0% {
+		opacity: 1; transform: translateY(0);
+	}
+	exit 100% {
+		opacity: 0; transform: translateY(-100%);
+	}
+}
+
+.container-fluid {
+	animation: linear animate-in-and-out;
+	animation-timeline: view();
+}
+.slide selected{
+	margin-left: 0px;
+}

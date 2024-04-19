@@ -1,0 +1,63 @@
+.video{
+	width: 100vw;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-bottom-left-radius : 770px;
+	border-bottom-right-radius : 30px;
+	object-fit: cover;
+	position: relative;
+	
+}
+ul li{
+	text-decoration: none;
+}
+
+.container{
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+	
+	
+}
+.navbar{
+	display: flex;
+	position: fixed;
+	top: 0;
+	margin-right: 32vw;
+	margin-top: 5vw;
+	font-weight: 500;
+	font-size: medium;
+	
+}
+.navbar li{
+	text-decoration: none;
+	margin-left: 7vw;
+	color: white;
+	
+	
+}
+.logo{
+	margin-top: 2vw;
+	color: white;
+	margin-left: 5vw;
+	font-size: xx-large;
+	position: fixed;
+	top: 0;
+}
+.img1{
+	width: 20vw;
+	border: 1px ;
+	padding: 50px;
+	border-top-left-radius : 65px;
+	border-top-right-radius : 65px;
+	border-bottom-left-radius : 65px;
+	border-bottom-right-radius : 65px;
+	position: absolute;
+	bottom: 1vw;
+	z-index: 1;
+	background-color: white;
+
+}
