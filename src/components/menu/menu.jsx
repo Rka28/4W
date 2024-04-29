@@ -24,7 +24,7 @@ import menu21 from '../Assets/menu21.png';
 import menu22 from '../Assets/menu22.png';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import { useState } from 'react'
+
 // import Carousel from 'react-bootstrap/Carousel';
 import { Carousel } from 'react-responsive-carousel';
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
