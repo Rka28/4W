@@ -31,11 +31,11 @@ import { Carousel } from 'react-responsive-carousel';
 
 
 function Menu() {
-	const [index, setIndex] = useState(0);
+	// const [ setIndex] = useState(0);
 
-	const handleSelect = (selectedIndex) => {
-		setIndex(selectedIndex);
-	};
+	// const handleSelect = (selectedIndex) => {
+	// 	setIndex(selectedIndex);
+	// };
 
 	return (
 
