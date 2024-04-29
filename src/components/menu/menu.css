@@ -70,14 +70,13 @@ p.carousel-status{
 	background-color: white;
 	color: black;
 }
-/* .btn-menu{
+ .btn-menu{
 	width: 350px;
 	display: flex;
 	justify-content: space-between;
 	margin-left: 3vw;
 	gap: 50px;
-} */
-/* 
+} 
 .container-menu ul.slider.animated{
 	width: 330px;
 	padding-right: 25px;
