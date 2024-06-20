@@ -9,19 +9,19 @@ import menu6 from '../Assets/menu6.png';
 import menu7 from '../Assets/menu7.png';
 import menu8 from '../Assets/menu8.png';
 import menu9 from '../Assets/menu9.png';
-import menu10 from '../Assets/menu10.png';
-import menu11 from '../Assets/menu11.png';
-import menu12 from '../Assets/menu12.png';
-import menu13 from '../Assets/menu13.png';
-import menu14 from '../Assets/menu14.png';
-import menu15 from '../Assets/menu15.png';
-import menu16 from '../Assets/menu16.png';
-import menu17 from '../Assets/menu17.png';
-import menu18 from '../Assets/menu18.png';
-import menu19 from '../Assets/menu19.png';
-import menu20 from '../Assets/menu20.png';
-import menu21 from '../Assets/menu21.png';
-import menu22 from '../Assets/menu22.png';
+// import menu10 from '../Assets/menu10.png';
+// import menu11 from '../Assets/menu11.png';
+// import menu12 from '../Assets/menu12.png';
+// import menu13 from '../Assets/menu13.png';
+// import menu14 from '../Assets/menu14.png';
+// import menu15 from '../Assets/menu15.png';
+// import menu16 from '../Assets/menu16.png';
+// import menu17 from '../Assets/menu17.png';
+// import menu18 from '../Assets/menu18.png';
+// import menu19 from '../Assets/menu19.png';
+// import menu20 from '../Assets/menu20.png';
+// import menu21 from '../Assets/menu21.png';
+// import menu22 from '../Assets/menu22.png';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
@@ -136,7 +136,7 @@ function Menu() {
 				</div>
 
 			</div>
-			<div className='flex-menu'>
+			{/* <div className='flex-menu'>
 
 				<div className='container-menu '>
 					<div className='contanair-border'>
@@ -179,8 +179,8 @@ function Menu() {
 					</div>
 				</div>
 
-			</div>
-			<div className='flex-menu'>
+			</div> */}
+			{/* <div className='flex-menu'>
 
 				<div className='container-menu '>
 					<div className='contanair-border'>
@@ -268,7 +268,7 @@ function Menu() {
 					</div>
 				</div>
 
-			</div>
+			</div> */}
 
 		</body>
 

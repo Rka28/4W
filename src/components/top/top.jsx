@@ -15,12 +15,7 @@ function Top() {
 		</div>
 		<div className='container'>
 		<h1 className='logo'>4M</h1>
-		<ul className='navbar'>
-			<li >Home</li>
-			<li >Home</li>
-			<li >Home</li>
-			<li >Home</li>
-		</ul>
+
 		<img className='img1' src={img1} alt="" />
 
 		</div>
